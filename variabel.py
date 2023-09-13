@@ -15,7 +15,12 @@ nilaiZ = 17.5
 print("Nilai a = ", a)
 a = 7
 print("Nilai a = ", a)
+print("Nilai x = ", x)
+x = 3
+print("Nilai x = ", x)
 
 # assigmnment indirect
 b = a
+c = x
 print("Nilai b = ", b)
+print("Nilai c = ", c)
