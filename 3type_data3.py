@@ -11,7 +11,7 @@ print("data : ", data_float)
 print("- bertipe : ", type(data_float))
 
 # tipe data: kumpulan karakter (string)
-data_string = "camvhell"
+data_string = "camvhell 666"
 print("data : ", data_string)
 print("- bertipe : ", type(data_string))
 
@@ -29,7 +29,7 @@ print("- bertipe : ", type(data_complex))
 
 # tipe data dari bahasa C
 
-from ctypes import c_double, c_char
+from ctypes import c_double, c_char, c_long
 
 data_c_double = c_double(10.5)
 print("data : ", data_c_double)
