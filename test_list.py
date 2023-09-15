@@ -42,11 +42,24 @@ print("Data antara index 2 sampai 5:", list3[2:5])
 # Slicing (mendapatkan beberapa data dengan menggunakan rentang indeks)
 print("Dua sampai tiga di list3    :", list3[:3])
 # Matrix (memasukan multi dimensi array atau matriks)
-matrik=[
-    ['A','B'],
-    ['C','D']
-    ];
-print('Matrixnya adalah\n', matrik);
+matrix=[['A','B'],
+        ['C','D']]
+print("Matrix:\n", matrix)
+# Matriks (Menampilkan semua isinya)
+matrik = [[list3[3]], # Offset mulai dari nol
+          [list2[6]],
+          [list1[4]],
+          [list3[9]],
+          [list2[5:]], # Slicing mengambil bagian
+          [list1[-4]], # Negatif: hitung dari kanan
+          [list1[2]],
+          [list2[-7]],
+          [list3[8:]],
+          [list1[1]]
+          ]
+for row in matrik:
+    print(*row," ")
+
 
 
 
