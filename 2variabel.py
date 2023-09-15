@@ -1,3 +1,5 @@
+# Variabel adalah lokasi memori yang dicadangkan untuk menyimpan nilai-nilai
+
 # menaruh/ assignment nilai
 a = 10
 x = 5
