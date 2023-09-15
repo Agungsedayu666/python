@@ -60,6 +60,22 @@ matrik = [[list3[3]], # Offset mulai dari nol
 for row in matrik:
     print(*row," ")
 
+# Method dan Fungsi Build-in Pada List Python
+print("\n========METHOD DAN FUNGSI BUILD IN PADA LIST PYTHON===========")
+# Append() digunakan untuk memasukkan item setelah akhir daftar.
+list1.append([1,2,[3]])
+print("Setelah append():\t", list1)
+# Extend() digunakan untuk meletakkan satu iterable object di belakang lainnya.
+list1.extend(['b', 'c'])
+print("Setelah extend()\t", list1)
+# Insert() digunakan untuk memasukkan item di posisi tertentu.
+list1.insert(-1,'d')
+print("Setelah insert()\t", list1)
+# Remove() digunakan untuk menghapus suatu objek dari list.
+list2.remove((3))   ## Hapus element pertama yaitu angka 0
+del list2[::]       ### Hapus seluruh element
+print("Setelah remove()/del:\t", list2)
+
 
 
 
