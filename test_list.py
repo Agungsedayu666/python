@@ -76,6 +76,31 @@ list2.remove((3))   ## Hapus element pertama yaitu angka 0
 del list2[::]       ### Hapus seluruh element
 print("Setelah remove()/del:\t", list2)
 
+# Python menyertakan fungsi built-in sebagai berikut :
+# - len() untuk mendapatkan panjang list
+len(list3)
+print("menampilakan panjang list : ",list3)
+# - max(), min() untuk mencari nilai terbesar/terkecil dalam list
+max(list3)
+print("Mengembalikan item dari list dengan nilai maks : ",list3) 
+min(list3)
+print("Mengembalikan item dari list dengan nilai min : ",list3)
+# - sum() untuk membandingkan total dari semua elemen dalam list
+# - sorted(iterable), sort(iterable) untuk sorting list
+# - sorted() untuk mengurutkan list
+# - reversed(iterable) untuk reverse order list
+# - enumerate(iterable) untuk memberikan nomor pada setiap elemen dalam list
+# - zip(iterables) untuk melengkapi tuple yang saling bergantian
+# - all(), any() untuk mengevaluasi apakah ada kesalahan logika dalam list
+# - filter(function or None, sequence) untuk membuat iterator baru dengan memilih elemen-elemen yang cocok dengan kondisi
+# - filter(function or None, sequence) untuk mereturn value true
+# - map(function ,sequence ) untuk mereturn hasil perhitungan function
+
+
+
+
+
+
 
 
 
