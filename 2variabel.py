@@ -27,3 +27,10 @@ b = a
 c = x
 print("Nilai b = ", b)
 print("Nilai c = ", c)
+
+# contoh variabel lainnya
+panjang = 70
+lebar = 45
+luas = panjang * lebar
+print("luas tanah tersebut adalah : ",luas)
+
