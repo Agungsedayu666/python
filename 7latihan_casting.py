@@ -2,9 +2,9 @@
 
 # program konversi satuan suhu ke satuan suhu lain
 
-print("\nPROGRAM KONVERSI TEMPERATUR\n")
+print("\nPROGRAM KONVERSI TEMPERATUR")
 
-print("====CELCIUS====")
+print("\n====CELCIUS====")
 celcius = float(input('Masukan suhu dalam celcius : '))
 print("suhu dalam celcius adalah",celcius, "Celcius")
 
@@ -20,7 +20,7 @@ print("suhu dalam fahrenheit adalah",fahrenheit, "Fahrenheit")
 kelvin = celcius + 273
 print("suhu dalam kelvin adalah",kelvin, "Kelvin")
 
-print("====REAMUR====")
+print("\n====REAMUR====")
 reamur = float(input('Masukan suhu dalam reamur : '))
 print("suhu dalam reamur adalah",reamur, "Reamur")
 
@@ -36,7 +36,7 @@ print("suhu dalam fahrenheit adalah",fahrenheit, "Fahrenheit")
 kelvin = ((5/4) * reamur) + 273
 print("suhu dalam kelvin adalah",kelvin, "Kelvin")
 
-print("====FAHRENHEIT====")
+print("\n====FAHRENHEIT====")
 fahrenheit = float(input('Masukan suhu dalam fahrenheit : '))
 print("suhu dalam fahrenheit adalah",fahrenheit, "Fahrenheit")
 
@@ -52,7 +52,7 @@ print("suhu dalam reamur adalah",reamur, "Reamur")
 kelvin = celcius + 273
 print("suhu dalam kelvin adalah",kelvin, "Kelvin")
 
-print("====KELVIN====")
+print("\n====KELVIN====")
 kelvin = float(input('Masukan suhu dalam kelvin : '))
 print("suhu dalam kelvin adalah",kelvin, "Kelvin")
 
