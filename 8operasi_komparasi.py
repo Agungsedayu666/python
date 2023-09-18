@@ -57,16 +57,16 @@ print(b,'!=',4,'=',hasil)
 
 # 'is' sebagai komparasi object identity
 print('======== object identity(is)')
-x = 5 # ini adalah assignment membuat object
-y = 5 
+x = 15 # ini adalah assignment membuat object
+y = 15 
 print('nilai x =,',x,',id = ',hex(id(x)))
 print('nilai y =,',y,',id = ',hex(id(y)))
 hasil = x is y
 print('x is y =',hasil)
 
 print('======== object identity(is not)')
-x = 5 # ini adalah assignment membuat object
-y = 6 
+x = 25 # ini adalah assignment membuat object
+y = 26 
 print('nilai x =,',x,',id = ',hex(id(x)))
 print('nilai y =,',y,',id = ',hex(id(y)))
 hasil = x is not y
