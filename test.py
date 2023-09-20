@@ -1,20 +1,6 @@
-a = 4
-b = 5
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+dict['Age'] = 8; # Mengubah entri yang sudah ada
+dict['School'] = "DPS School" # Menambah entri baru
 
-hasil = a <= b
-print("lebih dari sama dengan : ",hasil)
-
-
-x = 5
-y = 6
-print("nilai x = ",x, "id = ",hex(id(x)))
-print("nilai y = ",y, "id = ",hex(id(y)))
-hasil = x is y
-print("hasil dari x is y = ",hasil)
-
-c = 25
-d = 25
-print("nilai c = ",c, "id = ",hex(id(c)))
-print("nilai d = ",d, "id = ",hex(id(d)))
-hasil = c is not d
-print("hasil dari c is not d = ",hasil)
+print ("dict['Age']: ", dict['Age'])
+print ("dict['School']: ", dict['School'])
