@@ -1,3 +1,5 @@
+# operasi logika atau boolean
+
 # not, or, and, xor ^
 
 # NOT
@@ -8,7 +10,7 @@ print('data a = ',a)
 print('--------- NOT')
 print('data c = ',c)
 
-# OR
+# OR (jika salah satu true, maka hasilnya adalah true)
 print("====OR====")
 a = False
 b = False
@@ -27,7 +29,7 @@ b = True
 c = a or b
 print(a,'OR',b,'  =',c)
 
-# AND
+# AND (jika dua buah nilai true, maka hasilnya akan true)
 print("====AND====")
 a = False
 b = False
@@ -46,7 +48,7 @@ b = True
 c = a and b
 print(a,'AND',b,'  =',c)
 
-# XOR (^)
+# XOR (^) (akan true jika salah satu true, diluar itu akan false)
 print("====XOR====")
 a = False
 b = False
