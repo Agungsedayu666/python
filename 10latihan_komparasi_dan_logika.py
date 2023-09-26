@@ -4,7 +4,7 @@
 
 # ++++++3---------10++++++
 
-inputUser = float(input("Masukan angka yang bernilai\nkurang dari 3 \natau \nlebih besar dari 10\n:"))
+inputUser = float(input("Masukan angka yang bernilai\nKurang dari 3 \natau \nLebih besar dari 10\n:"))
 
 # ++++++3------------------
 # Memeriksa angka kurang dari 3
@@ -23,7 +23,7 @@ print("Angka yang anda masukan :", isCorrect)
 # -----3+++++++++++10------
 # kasus irisan 
 print("\n",10*"=","\n")
-inputUser = float(input("Masukan angka yang bernilai\nlebih dari 3 \ndan \nkurang dari 10\n:"))
+inputUser = float(input("Masukan angka yang bernilai\nLebih dari 3 \ndan \nKurang dari 10\n:"))
 
 # -----3+++++++++++++++++++
 # lebih dari 3
